@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-lemmenaid-boutiqueado-2caqik3ssvy.ws.codeinstitute-ide.net', 
-                 'boutique-ado-kl.herokuapp.com']
+                 'boutique-ado-kl.herokuapp.com', 'localhost']
 
 
 # Application definition
