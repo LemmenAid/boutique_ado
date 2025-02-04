@@ -58,6 +58,8 @@ INSTALLED_APPS = [
 
     # Other
     'crispy_forms',
+    'cloudinary',
+    'cloudinary_storage',
     #'storages',from AWS
 ]
 
@@ -183,7 +185,7 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
-DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
+#DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
 #if 'USE_AWS' in os.environ:
